@@ -1,0 +1,198 @@
+@import "stylee";
+
+@mixin important-info {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+}
+
+.accordion {
+    .accordion-item {
+        .accordion-header {
+            position: relative;
+
+            .accordion-button:not(.collapsed) {
+                background-color: $color3 !important;
+                border: none !important;
+
+                .text-dark-blue {
+                    color: $color;
+                }
+
+                .lock-icon {
+                    position: absolute;
+                    top: 28%;
+                    right: 6%;
+                    bottom: 0;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .accordion-collapse {
+            .accordion-body {
+                .breadcrumbSmall {
+                    margin-bottom: 30px;
+
+                    .row {
+                        margin: 10px;
+
+                        ul {
+                            list-style: none;
+
+                            li {
+                                float: left;
+                                width: $myWidth;
+                                border: 1px solid $color1;
+
+                                a {
+                                    position: relative;
+                                    display: block;
+                                    padding: 20px;
+                                    padding-right: 0 !important;
+                                    height: 72px;
+                                    font-size: $myFontsize;
+                                    font-weight: bold;
+                                    text-align: center;
+                                    color: #333;
+                                    cursor: default;
+                                    background-color: $myColor;
+
+                                    .pointer {
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .breadcrumbSmall {
+                    margin-bottom: 30px;
+
+                    .row {
+                        margin: 10px;
+
+                        ul {
+                            list-style: none;
+
+                            .cfSmall:before {
+                                .cfSmall:after {
+                                    content: " ";
+                                    display: table;
+
+                                    li {
+                                        float: left;
+                                        width: $myWidth;
+                                        border: 1px solid $color1;
+
+                                        a {
+                                            position: relative;
+                                            display: block;
+                                            padding: 20px;
+                                            padding-right: 0 !important;
+                                            height: 72px;
+                                            font-size: $myFontsize;
+                                            font-weight: bold;
+                                            text-align: center;
+                                            color: #333;
+                                            cursor: default;
+                                            background-color: $myColor;
+
+                                            a:before {
+                                                a:after {
+                                                    content: "";
+                                                    position: absolute;
+                                                    top: 0;
+                                                    left: 100%;
+                                                    z-index: 1;
+                                                    display: block;
+                                                    width: 0;
+                                                    height: 0;
+                                                    border-top: 37px solid transparent;
+                                                    border-bottom: 37px solid transparent;
+                                                    border-left: 16px solid transparent;
+
+                                                    &:last-child {
+                                                        a {
+                                                            &:before {
+                                                                border-left-color: $myColor;
+                                                            }
+
+                                                            &:after {
+                                                                border: 1px solid $color1;
+                                                            }
+
+                                                            span {
+                                                                letter-spacing: 0px;
+
+                                                                .pt-6px {
+                                                                    padding-top: 6px;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+
+                                                a {
+                                                    text-decoration: none;
+
+                                                    &:before {
+                                                        margin-left: 1px;
+                                                        border-left-color: $color1;
+                                                    }
+
+                                                    &:after {
+                                                        border-left-color: $myColor;
+                                                    }
+
+                                                    span {
+
+                                                        text-decoration: none;
+
+                                                        hr {
+                                                            @include important-info;
+                                                            opacity: 0.25;
+
+                                                            hr:not([size]) {
+                                                                height: 1px;
+                                                            }
+                                                        }
+
+                                                        &:first-child {
+                                                            display: inline-block;
+                                                            width: 32px;
+                                                            height: 32px;
+                                                            margin-right: 5px;
+                                                            border-radius: 50%;
+                                                            color: var(--ats-ui-1000);
+                                                            background-color: $color1;
+                                                        }
+
+                                                        .section-separator {
+                                                            border: 1px;
+                                                            color: var(--ats-ui-600);
+                                                            opacity: 1;
+                                                        }
+
+                                                        .section-separator-light-blue {
+                                                            color: $color2;
+                                                        }
+
+                                                    }
+
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

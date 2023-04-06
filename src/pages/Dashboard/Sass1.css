@@ -1,0 +1,144 @@
+.pointer {
+  cursor: pointer;
+}
+
+.accordion .accordion-item .accordion-header {
+  position: relative;
+}
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color: #9fe3ff !important;
+  border: none !important;
+}
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) .text-dark-blue {
+  color: #004569;
+}
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) .lock-icon {
+  position: absolute;
+  top: 28%;
+  right: 6%;
+  bottom: 0;
+  font-size: 1.2rem;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall {
+  margin-bottom: 30px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row {
+  margin: 10px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul {
+  list-style: none;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul li {
+  float: left;
+  width: 20%;
+  border: 1px solid #007cb0;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul li a {
+  position: relative;
+  display: block;
+  padding: 20px;
+  padding-right: 0 !important;
+  height: 72px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  cursor: default;
+  background-color: #ffffff;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall {
+  margin-bottom: 30px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row {
+  margin: 10px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul {
+  list-style: none;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after {
+  content: " ";
+  display: table;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li {
+  float: left;
+  width: 20%;
+  border: 1px solid #007cb0;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a {
+  position: relative;
+  display: block;
+  padding: 20px;
+  padding-right: 0 !important;
+  height: 72px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  cursor: default;
+  background-color: #ffffff;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 1;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 37px solid transparent;
+  border-bottom: 37px solid transparent;
+  border-left: 16px solid transparent;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a:after:last-child a:before {
+  border-left-color: #ffffff;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a:after:last-child a:after {
+  border: 1px solid #007cb0;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a:after:last-child a span {
+  letter-spacing: 0px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a:after:last-child a span .pt-6px {
+  padding-top: 6px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a {
+  text-decoration: none;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a:before {
+  margin-left: 1px;
+  border-left-color: #007cb0;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a:after {
+  border-left-color: #ffffff;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a span {
+  text-decoration: none;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a span hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a span hr hr:not([size]) {
+  height: 1px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a span:first-child {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+  border-radius: 50%;
+  color: var(--ats-ui-1000);
+  background-color: #007cb0;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a span .section-separator {
+  border: 1px;
+  color: var(--ats-ui-600);
+  opacity: 1;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body .breadcrumbSmall .row ul .cfSmall:before .cfSmall:after li a a:before a span .section-separator-light-blue {
+  color: #70d4ff;
+}/*# sourceMappingURL=Sass1.css.map */
